@@ -21,8 +21,3 @@ Sistema completo de gestión de peajes, dividido en tres repositorios:
 | [SistemaPeaje.Backend](https://github.com/jose28gena/SistemaPeaje.Backend) | API REST con Clean Architecture, CQRS, JWT y 48 tests unitarios | .NET 8, MediatR, EF Core, FluentValidation, Serilog, xUnit |
 | [SistemaPeaje.App](https://github.com/jose28gena/SistemaPeaje.App) | Panel de operador y dashboard de reportes (dos PWA y librerías compartidas) | Angular 17, TypeScript, Angular Material, RxJS |
 | [SistemaPeaje.DB](https://github.com/jose28gena/SistemaPeaje.DB) | Esquema, procedimientos almacenados, vistas y datos semilla | SQL Server, T-SQL |
-
-## 📫 Contacto
-
-<!-- TODO: agrega aquí tu LinkedIn y/o correo profesional -->
-- LinkedIn: _pendiente_
