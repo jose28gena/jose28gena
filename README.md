@@ -1,70 +1,107 @@
-# José Genaro Rivera Fernández
+<div align="center">
 
-**Full Stack | Backend .NET Senior** · 📍 Hermosillo, Sonora, México
+<img src="https://raw.githubusercontent.com/jose28gena/jose28gena/main/assets/banner.svg" alt="José Genaro Rivera Fernández · Backend .NET Senior · Full Stack" width="100%">
 
-Desarrollador con más de 9 años de experiencia en .NET, enfocado en **sistemas transaccionales y de alta disponibilidad**. He trabajado en soluciones que se usan directamente en operación (punto de venta, pagos electrónicos, gift cards y tiempo aire), donde la estabilidad y el tiempo de respuesta son críticos.
+<br>
 
-He construido soluciones con distintas arquitecturas: **microservicios, Clean Architecture, DDD y monolitos**.
+📍 Hermosillo, Sonora, México
+
+<img alt="Experiencia" src="https://img.shields.io/badge/experiencia-9%2B%20a%C3%B1os-2f5bea?style=for-the-badge">
+<img alt="Tests" src="https://img.shields.io/badge/tests%20automatizados-150%2B-1f9d62?style=for-the-badge">
+<img alt="CI" src="https://img.shields.io/badge/repos%20con%20CI-4-d98a00?style=for-the-badge">
+
+</div>
+
+## 👋 Sobre mí
+
+Desarrollo sistemas donde **un error cuesta dinero**: cobros, tarjetas, punto de venta y pagos electrónicos. Me importa que sigan funcionando cuando la red falla, cuando llegan dos operaciones a la vez y cuando alguien reintenta.
+
+- 🔭 Más de 9 años con **.NET**, en sistemas que se usan directamente en operación.
+- 🧱 He trabajado con **microservicios, Clean Architecture, DDD y monolitos**.
+- 🌱 Practicando ahora: **idempotencia, resiliencia en integraciones** y **Angular 19 con signals**.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 💳 Transaccional
+Idempotencia, control de concurrencia, libros de movimientos y conciliación.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧱 Arquitectura
+Clean Architecture, CQRS, DDD y APIs REST bien delimitadas.
+
+</td>
+<td width="33%" valign="top">
+
+### ✅ Calidad
+Tests de integración, CI, Docker y despliegues sin interrumpir la operación.
+
+</td>
+</tr>
+</table>
+
+## 🚀 Proyectos destacados
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💳 [GiftCards](https://github.com/jose28gena/GiftCards)
+API de tarjetas de regalo para POS. Repetir un cobro con la misma `Idempotency-Key` **no cobra dos veces** y 30 cobros simultáneos **nunca sobregiran** la tarjeta.
+
+`.NET 8` `EF Core` `Docker` `26 tests`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔌 [PaymentGateway](https://github.com/jose28gena/PaymentGateway)
+Cliente resiliente para un proveedor de pagos: reintentos con idempotencia, **circuit breaker**, timeouts y **webhooks firmados** con HMAC.
+
+`.NET 8` `Polly` `HMAC` `24 tests`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛣️ Sistema de Peaje
+Sistema completo en tres repositorios: [API](https://github.com/jose28gena/SistemaPeaje.Backend) con Clean Architecture y CQRS, [frontend](https://github.com/jose28gena/SistemaPeaje.App) con dos PWA y [base de datos](https://github.com/jose28gena/SistemaPeaje.DB).
+
+`.NET 8` `MediatR` `Angular 17` `SQL Server`
+
+</td>
+<td width="50%" valign="top">
+
+### ✅ [TaskFlow](https://github.com/jose28gena/TaskFlow) + [TaskFlow Web](https://github.com/jose28gena/TaskFlow-Web)
+API con JWT y su frontend en **Angular 19**: signals, interceptor, guard, modo oscuro y accesibilidad. Más de 95 % de cobertura de líneas en el frontend.
+
+`.NET 8` `Angular 19` `TypeScript` `58 tests`
+
+</td>
+</tr>
+</table>
 
 ## 🛠️ Stack
 
-**Backend**
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET_6--9-512BD4?style=flat&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=flat&logo=dotnet&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+<p>
+  <img alt="Tecnologías" src="https://skillicons.dev/icons?i=cs,dotnet,angular,vue,react,ts,nodejs,postgres,azure,docker,git,githubactions&perline=12">
+</p>
 
-**Frontend**
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=flat&logo=blazor&logoColor=white)
-
-**Datos**
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-
-**DevOps**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat&logo=azuredevops&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-
-**Integración:** APIs REST · POS · servicios de pago · mensajería con Service Bus · HttpClient y autenticación por tokens
+**Backend:** C# · ASP.NET Core · Entity Framework · Web API · Node.js  
+**Frontend:** Angular · Vue · React · Blazor · TypeScript · Razor  
+**Datos:** SQL Server · PostgreSQL  
+**DevOps:** Docker · Azure DevOps · Git · CI/CD  
+**Integración:** APIs REST · POS · servicios de pago · Service Bus · HttpClient y tokens
 
 ## 💼 En qué he trabajado
 
-- APIs en .NET para **procesamiento de transacciones** (gift cards, pagos y servicios) integradas con POS y servicios externos en tiempo real.
+- **Procesamiento de transacciones** (gift cards, pagos y servicios) con APIs en .NET integradas con POS y servicios externos en tiempo real.
 - **Optimización de procesos backend** para mejorar tiempos de respuesta en producción.
-- Atención de incidencias en sistemas críticos **sin interrumpir la operación**; despliegues con CI/CD.
-- Sistema de **facturación electrónica** (timbrado) con validación fiscal.
-- Plataformas empresariales: gestión de solicitudes, análisis de datos e indicadores; migraciones y mejoras de rendimiento.
-
-## 🚀 Proyecto destacado: Sistema de Peaje
-
-Sistema completo de gestión de peajes, dividido en tres repositorios:
-
-| Repo | Qué es | Tecnologías |
-| --- | --- | --- |
-| [SistemaPeaje.Backend](https://github.com/jose28gena/SistemaPeaje.Backend) | API REST con Clean Architecture, CQRS, JWT y 48 tests unitarios | .NET 8, MediatR, EF Core, FluentValidation, Serilog, xUnit |
-| [SistemaPeaje.App](https://github.com/jose28gena/SistemaPeaje.App) | Panel de operador y dashboard de reportes (dos PWA y librerías compartidas) | Angular 17, TypeScript, Angular Material, RxJS |
-| [SistemaPeaje.DB](https://github.com/jose28gena/SistemaPeaje.DB) | Esquema, procedimientos almacenados, vistas y datos semilla | SQL Server, T-SQL |
-
-## 💳 Sistemas transaccionales e integraciones
-
-| Repo | Qué es | Tecnologías |
-| --- | --- | --- |
-| [GiftCards](https://github.com/jose28gena/GiftCards) | API de tarjetas de regalo para POS: **idempotencia**, **concurrencia optimista** (30 cobros simultáneos nunca sobregiran), libro de movimientos, montos en centavos. 26 tests | .NET 8, EF Core, xUnit, Docker, GitHub Actions |
-| [PaymentGateway](https://github.com/jose28gena/PaymentGateway) | Cliente resiliente para un proveedor de pagos: reintentos que reutilizan la clave de idempotencia, **circuit breaker**, timeouts y **webhooks firmados** (HMAC). 24 tests contra un proveedor simulado | .NET 8, Polly / Http.Resilience, xUnit |
-
-## 🧩 Otros proyectos
-
-| Repo | Qué es | Tecnologías |
-| --- | --- | --- |
-| [TaskFlow](https://github.com/jose28gena/TaskFlow) | API REST de tareas con JWT, aislamiento por usuario, Docker, CI y 13 tests de integración | .NET 8, Clean Architecture, EF Core, xUnit, GitHub Actions |
-| [TaskFlow Web](https://github.com/jose28gena/TaskFlow-Web) | Frontend de TaskFlow: login JWT, tablero de tareas, interceptor y guard. 45 tests (≈ 98 % de líneas) | Angular 19, TypeScript, signals, RxJS |
+- **Atención de incidencias** en sistemas críticos sin interrumpir la operación, con despliegues por CI/CD.
+- **Facturación electrónica** (timbrado) con validación fiscal, y plataformas empresariales con migraciones y mejoras de rendimiento.
 
 ## 🎓 Formación
 
@@ -72,5 +109,4 @@ Ingeniería en Sistemas de Información · Universidad de Sonora
 
 ## 📫 Contacto
 
-- Correo: [jose_28gena@live.com](mailto:jose_28gena@live.com)
-- GitHub: [@jose28gena](https://github.com/jose28gena)
+<a href="mailto:jose_28gena@live.com"><img alt="Correo" src="https://img.shields.io/badge/Correo-jose__28gena%40live.com-2f5bea?style=for-the-badge&logo=microsoftoutlook&logoColor=white"></a>
