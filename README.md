@@ -52,11 +52,19 @@ Sistema completo de gestión de peajes, dividido en tres repositorios:
 | [SistemaPeaje.App](https://github.com/jose28gena/SistemaPeaje.App) | Panel de operador y dashboard de reportes (dos PWA y librerías compartidas) | Angular 17, TypeScript, Angular Material, RxJS |
 | [SistemaPeaje.DB](https://github.com/jose28gena/SistemaPeaje.DB) | Esquema, procedimientos almacenados, vistas y datos semilla | SQL Server, T-SQL |
 
+## 💳 Sistemas transaccionales e integraciones
+
+| Repo | Qué es | Tecnologías |
+| --- | --- | --- |
+| [GiftCards](https://github.com/jose28gena/GiftCards) | API de tarjetas de regalo para POS: **idempotencia**, **concurrencia optimista** (30 cobros simultáneos nunca sobregiran), libro de movimientos, montos en centavos. 26 tests | .NET 8, EF Core, xUnit, Docker, GitHub Actions |
+| [PaymentGateway](https://github.com/jose28gena/PaymentGateway) | Cliente resiliente para un proveedor de pagos: reintentos que reutilizan la clave de idempotencia, **circuit breaker**, timeouts y **webhooks firmados** (HMAC). 24 tests contra un proveedor simulado | .NET 8, Polly / Http.Resilience, xUnit |
+
 ## 🧩 Otros proyectos
 
 | Repo | Qué es | Tecnologías |
 | --- | --- | --- |
 | [TaskFlow](https://github.com/jose28gena/TaskFlow) | API REST de tareas con JWT, aislamiento por usuario, Docker, CI y 13 tests de integración | .NET 8, Clean Architecture, EF Core, xUnit, GitHub Actions |
+| [TaskFlow Web](https://github.com/jose28gena/TaskFlow-Web) | Frontend de TaskFlow: login JWT, tablero de tareas, interceptor y guard. 45 tests (≈ 98 % de líneas) | Angular 19, TypeScript, signals, RxJS |
 
 ## 🎓 Formación
 
