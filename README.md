@@ -27,3 +27,8 @@ Sistema completo de gestión de peajes, dividido en tres repositorios:
 | Repo | Qué es | Tecnologías |
 | --- | --- | --- |
 | [TaskFlow](https://github.com/jose28gena/TaskFlow) | API REST de tareas con JWT, aislamiento por usuario, Docker, CI y 13 tests de integración | .NET 8, Clean Architecture, EF Core, xUnit, GitHub Actions |
+
+## 📫 Contacto
+
+- Correo: [jose_28gena@live.com](mailto:jose_28gena@live.com)
+- GitHub: [@jose28gena](https://github.com/jose28gena)
